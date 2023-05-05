@@ -1,0 +1,71 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg-pattern-desktop.png');
+    font-family: 'Josefin Sans';
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 500px;
+}
+.section1{
+    min-width: 500px;
+}
+.section1 img {
+    margin: 40px 80px;
+    height: 30px;
+}
+.section1 h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-right: 40px;
+}
+span{
+    color: hsl(0, 36%, 70%);
+}
+.section1 p{
+    margin: 10px 40px;
+    text-align: left;
+    color: hsl(0, 36%, 70%);
+    width: 400px;
+    line-height: 1.5rem;
+}
+ form{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+form input{
+    color: hsl(0, 36%, 70%);
+    padding: 10px;
+    border-radius: 15px;
+    border-color: hsl(0, 36%, 70%) solid 10px;
+    border-bottom: 2px solid #ccc;
+    flex: 1;
+}
+button{
+    background-color: hsl(0, 36%, 70%);
+    height: 30px;
+    width: 30px;
+}
+button img{
+    width: 30px;
+    height: 30px;
+}
+.section2  {
+    min-width: 300px;
+}
+.section2 img{
+    width: 450px;
+    height: 100vh;
+}
