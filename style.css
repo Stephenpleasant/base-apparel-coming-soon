@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('bg-pattern-desktop.png');
+    background-image:url('bg-pattern-desktop.png');
     font-family: 'Josefin Sans';
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     max-width: 100%;
     position: absolute;
@@ -40,6 +41,7 @@ span{
     line-height: 1.5rem;
 }
  form{
+    position: relative;
     display: flex;
     width: 300px;
     align-items: center;
@@ -54,13 +56,18 @@ form input{
     flex: 1;
 }
 button{
-    background-color: hsl(0, 36%, 70%);
-    height: 30px;
-    width: 30px;
+    position: absolute;
+    right: 0;
+    background-color: black;
+    height: 33px;
+    width: 50px;
+    border-radius: 10px;
 }
 button img{
-    width: 30px;
-    height: 30px;
+    position: relative;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    
 }
 .section2  {
     min-width: 300px;
