@@ -4,6 +4,9 @@ const form = document.getElementById('form')
 
 
 form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    console.log(email.value);
+    
     let message = []
     if  (email.value === '' || email.value == null) {
         message.push('email is required')
