@@ -91,9 +91,7 @@ button{
     color: hsl(0, 36%, 70%);
     margin-top: 12px;
 }
-input.success{
-    color: green;
-}
+
 
 .section2  {
     min-width: 300px;
